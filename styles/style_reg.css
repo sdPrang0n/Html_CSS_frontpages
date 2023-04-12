@@ -1,0 +1,74 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+body{
+  background: url(http://wrbbradio.org/wp-content/uploads/2016/10/grey-background-07.jpg) no-repeat center fixed;
+  background-size: cover;
+}
+
+.container{
+	background: #2d3e3f;
+	width: 350px;
+	height: auto;
+	padding-bottom: 20px;
+	position: absolute;
+	top:50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	margin: auto;
+    padding: 70px 50px 20px 50px;
+}
+.container h1{
+    text-align: center;
+    color: white;
+    font-family: verdana;
+    font-size: 20px;
+}
+
+.fl{
+	float: left;
+    width: 110px;
+    line-height: 35px;
+}
+.fr{
+    float: left;
+    width: 240px;
+}
+.fontLabel{
+  color: white;
+}
+.box{
+	width: 360px;
+	height: 35px;
+	margin-top: 10px;
+	font-family: verdana;
+	font-size: 12px;
+}
+.radio{
+	color: white;
+	background: #2d3e3f;
+	line-height: 38px;
+}
+
+.terms{
+	line-height: 35px;
+    text-align: center;
+	background: #2d3e3f;
+	color: white;
+}
+/* center submit button */
+
+.submit{
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    height: 35px;
+    background: #30979c;
+    color: white;
+    border: 1px solid #08ccd6;
+    border-radius: 5px;
+    font-size: 15px;
+    font-family: verdana;
+    cursor: pointer;
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login</title>
+    <link rel="stylesheet" href="styles/styles.css">
+</head>
+<body>
+    <div class="login_screen">
+        <img src="images/login_screen.png" alt="login_screen" class="login_screen_img">
+    </div>
+    <div class="login_form">
+        <form action="login.php" method="POST" class="login_form_content">
+            <h1>Login to <br>
+                Expense Management</h1>
+            <input type="text" name="username" placeholder="Email" class="login_email" required>
+            <input type="password" name="password" placeholder="Password" class="login_password" required>
+            <a href="dashboard.html" class="login_submit">Submit</a>
+            <div class="text-forgot-password-text">Forgot password?</div>
+            <div class="text-sign-up-text">Don't have an account? <a href="register.html">Signup Now</div>
+        </form>
+    </div>
+    
+</body>
+</html>
